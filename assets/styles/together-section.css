@@ -1,0 +1,78 @@
+.together-section {
+    background-color: #e9f8f5;
+}
+
+.together-heading {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 80px;
+    margin-top: 24px;
+}
+
+.blue-divider {
+    margin-top: -25px;
+    margin-bottom: -30px;
+    width: 100%;
+}
+
+.handshake {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.handshake-img {
+    margin-bottom: -55px;
+    position: absolute;
+    z-index: 3;
+}
+
+.sections {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.rider,
+.partners,
+.careers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+    line-height: 20px;
+    margin-bottom: 65px;
+}
+
+.rider *,
+.partners *,
+.careers * {
+    padding: 15px;
+}
+
+div.sections p {
+    font-weight: 300 !important;
+    margin-bottom: 25px;
+}
+
+.join-link a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #00a082;
+    padding: 20px 60px;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#overlap-divider {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    z-index: -1;
+}

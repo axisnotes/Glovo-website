@@ -1,0 +1,73 @@
+.delivery {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.delivery-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+    line-height: 20px;
+}
+
+.delivery-wrapper {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.delivery-heading {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 78px;
+}
+
+.del-section-headings {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.del-description {
+    text-align: center;
+    font-size: 16px;
+}
+
+.del-images {
+    margin-bottom: 23px;
+}
+
+.highlights {
+    background-color: #ffc244;
+    border-radius: 8px;
+}
+
+.stores-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 51px;
+    margin-bottom: 77px;
+}
+
+#del-button {
+    color: #fff;
+    background-color: #00a082;
+    border-radius: 100px;
+    text-align: center;
+    cursor: pointer;
+    width: 296px;
+    height: 51px;
+    border: none;
+    box-shadow: 3px 3px 5px 0 rgb(0 0 0 / 10%);
+    font-weight: 700;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+#del-button:hover {
+    background-color: #008169;
+}

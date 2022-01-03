@@ -1,0 +1,41 @@
+.top-restaurants-wrapper {
+    padding: 40px 0;
+}
+
+.restaurants-list {
+    display: grid;
+    margin-top: 45px;
+    margin-left: 200px;
+    margin-right: 200px;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 120px;
+    row-gap: 60px;
+}
+
+.restaurants-heading {
+    text-align: center;
+    font-size: 40px;
+}
+
+.top-restaurants-heading {
+    background-color: #ffc244;
+    position: relative;
+    text-align: center;
+    top: -50px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    line-height: 20px;
+    border-radius: 8px;
+    padding: 4px 10px;
+}
+
+.restaurant-images {
+    height: 129px;
+    width: 138px;
+    border-radius: 50%;
+    margin-bottom: 35px;
+}

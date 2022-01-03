@@ -1,0 +1,40 @@
+.logo-img {
+    width: auto;
+    height: 44px;
+    margin-top: -4px;
+}
+
+.not-scrolling {
+    display: flex;
+    background-color: #ffc244;
+    padding: 30px 7.5%;
+    justify-content: space-between;
+}
+
+#top-button {
+    color: #fff;
+    background-color: #00a082;
+    border-radius: 100px;
+    text-align: center;
+    cursor: pointer;
+    width: 138px;
+    height: 43px;
+    border: none;
+    box-shadow: 3px 3px 5px 0 rgb(0 0 0 / 10%);
+    font-weight: 700;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+#top-button:hover {
+    background-color: #008169;
+}
+
+.scrolling-header {
+    background-color: #ffc244;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    position: sticky;
+    z-index: 19;
+    top: 0;
+    width: 100
+}
